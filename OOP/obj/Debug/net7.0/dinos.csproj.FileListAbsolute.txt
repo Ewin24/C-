@@ -1,0 +1,15 @@
+/workspaces/C-/OOP/bin/Debug/net7.0/dinos
+/workspaces/C-/OOP/bin/Debug/net7.0/dinos.deps.json
+/workspaces/C-/OOP/bin/Debug/net7.0/dinos.runtimeconfig.json
+/workspaces/C-/OOP/bin/Debug/net7.0/dinos.dll
+/workspaces/C-/OOP/bin/Debug/net7.0/dinos.pdb
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.csproj.AssemblyReference.cache
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.AssemblyInfoInputs.cache
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.AssemblyInfo.cs
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.csproj.CoreCompileInputs.cache
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.dll
+/workspaces/C-/OOP/obj/Debug/net7.0/refint/dinos.dll
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.pdb
+/workspaces/C-/OOP/obj/Debug/net7.0/dinos.genruntimeconfig.cache
+/workspaces/C-/OOP/obj/Debug/net7.0/ref/dinos.dll
