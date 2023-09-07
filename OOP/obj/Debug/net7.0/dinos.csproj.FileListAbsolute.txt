@@ -13,3 +13,17 @@
 /workspaces/C-/OOP/obj/Debug/net7.0/dinos.pdb
 /workspaces/C-/OOP/obj/Debug/net7.0/dinos.genruntimeconfig.cache
 /workspaces/C-/OOP/obj/Debug/net7.0/ref/dinos.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\dinos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\dinos.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\dinos.AssemblyInfo.cs
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\dinos.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\dinos.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\refint\dinos.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\dinos.pdb
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\bin\Debug\net7.0\dinos.exe
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\bin\Debug\net7.0\dinos.deps.json
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\bin\Debug\net7.0\dinos.runtimeconfig.json
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\bin\Debug\net7.0\dinos.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\bin\Debug\net7.0\dinos.pdb
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\dinos.genruntimeconfig.cache
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\OOP\obj\Debug\net7.0\ref\dinos.dll
