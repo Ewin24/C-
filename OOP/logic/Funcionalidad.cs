@@ -18,11 +18,44 @@ namespace OOP.logic
             Console.WriteLine("=================MENU PRINCIPAL DE GESTION DE ESTUDIANTES=================");
             Console.WriteLine("1. Ingresar nuevo estudiante ");
             Console.WriteLine("2. Listar estudiantes ");
+            Console.WriteLine("3. Adicionar Notas ");
             Console.WriteLine("4. Salir ");
             Console.WriteLine("Opcion: ");
             opc = Int32.Parse(Console.ReadLine());
             Console.WriteLine("\n");
             return opc;
+        }
+        public void menuNotas()
+        {
+            int opc = 4;
+            Console.WriteLine("=================MENU PRINCIPAL DE GESTION DE NOTAS=================");
+            Console.WriteLine("1. Ingresar quices ");
+            Console.WriteLine("2. Ingresar trabajos ");
+            Console.WriteLine("3. Ingresar parciales ");
+            Console.WriteLine("4. Salir ");
+            Console.WriteLine("Opcion: ");
+            opc = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("\n");
+            switch (opc)
+            {
+                case 1:
+
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+                    return;
+
+                    break;
+
+                default:
+                    Console.WriteLine("Opcion Incorrecta ");
+                    break;
+            }
         }
 
         public void agregarEstudiantes(List<Estudiante> estudiantes)

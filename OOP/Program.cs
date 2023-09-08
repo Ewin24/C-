@@ -6,6 +6,7 @@ internal class Program
     private static void Main(string[] args)
     {
         List<Estudiante> estudiantes = new List<Estudiante>();
+        List<Notas> notas = new List<Notas>();
         Funcionalidad funciones = new Funcionalidad();
         try
         {
@@ -22,6 +23,9 @@ internal class Program
                         break;
                     case 2:
                         funciones.listarEstudiantes(estudiantes);
+                        break;
+                    case 3:
+                        funciones.menuNotas();
                         break;
                 }
             } while (opc != 4);
