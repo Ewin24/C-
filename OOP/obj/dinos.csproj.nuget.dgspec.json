@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {}
+    "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {
+    "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
         "projectName": "dinos",
-        "projectPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
+        "projectPath": "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\obj\\",
+        "outputPath": "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

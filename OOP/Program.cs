@@ -6,11 +6,11 @@ internal class Program
     private static void Main(string[] args)
     {
         List<Estudiante> estudiantes = new List<Estudiante>();
-        List<Notas> notas = new List<Notas>();
+        List<Nota> notas = new List<Nota>();
         Funcionalidad funciones = new Funcionalidad();
         try
         {
-            int opc = 4;
+            int opc = 5;
             do
             {
                 //MENU
@@ -25,10 +25,13 @@ internal class Program
                         funciones.listarEstudiantes(estudiantes);
                         break;
                     case 3:
-                        funciones.menuNotas();
+                        funciones.menuNotas(notas, estudiantes);
+                        break;
+                    case 4:
+                        funciones.listarNotas(notas);
                         break;
                 }
-            } while (opc != 4);
+            } while (opc != 5);
         }
         catch (System.Exception e)
         {

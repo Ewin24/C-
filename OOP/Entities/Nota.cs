@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 
 namespace OOP.Entities
 {
-    public class Notas
+    public class Nota
     {
         public string codigoEst;
         public List<Double> parciales { get; set; }
         public List<Double> quices { get; set; }
         public List<Double> trabajos { get; set; }
-        public Notas(string codigoEst)
+        public Nota(string codigoEst)
         {
             this.codigoEst = codigoEst;
         }
-        public static void setNotas(string codigoEst, List<Notas> notas, char tipoNota, double nota)
+        public static void setNotas(string codigoEst, List<Nota> notas, char tipoNota, double nota)
         {
             for (int i = 0; i < notas.Count; i++)
             {
