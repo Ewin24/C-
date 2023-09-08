@@ -70,60 +70,57 @@ namespace OOP.logic
 
         public void menuNotas(List<Nota> notas, List<Estudiante> estudiantes)
         {
-            int opc = 4;
-            Console.WriteLine("=================MENU PRINCIPAL DE GESTION DE NOTAS=================");
-            Console.WriteLine("1. Ingresar quices ");
-            Console.WriteLine("2. Ingresar trabajos ");
-            Console.WriteLine("3. Ingresar parciales ");
-            Console.WriteLine("4. Salir ");
-            Console.WriteLine("Opcion: ");
-            opc = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("\n");
-            switch (opc)
+
+            Double notaEvaluacion = 0;
+            Console.WriteLine("Ingrese el codigo del estudiante: ");
+            string? codigoEst = Console.ReadLine();
+            if (existeEstudiante(estudiantes, codigoEst))
             {
-                case 1:
-                    Console.WriteLine("Ingrese el codigo del estudiante: ");
-                    string? codigoEst = Console.ReadLine();
-                    if (existeEstudiante(estudiantes, codigoEst))
-                    {
-                        notas.Add(new Nota(codigoEst));
+                int opc = 4;
+                Console.WriteLine("=================MENU PRINCIPAL DE GESTION DE NOTAS=================");
+                Console.WriteLine("1. Ingresar quices ");
+                Console.WriteLine("2. Ingresar trabajos ");
+                Console.WriteLine("3. Ingresar parciales ");
+                Console.WriteLine("4. Salir ");
+                Console.WriteLine("Opcion: ");
+                opc = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("\n");
+                switch (opc)
+                {
+                    case 1:
+                        Nota nota = new Nota(codigoEst);
+                        notas.Add(nota);
                         Console.WriteLine("Ingrese el quiz del estudiante: ");
                         //!posible validacion de nota
-                        Double nota = Double.Parse(Console.ReadLine());
-                        Nota.setNotas(codigoEst, notas, 'Q', nota);
-                    }
-                    break;
-                case 2:
-                    Console.WriteLine("Ingrese trabajos del estudiante: ");
-                    codigoEst = Console.ReadLine();
-                    if (existeEstudiante(estudiantes, codigoEst))
-                    {
-                        notas.Add(new Nota(codigoEst));
-                        Console.WriteLine("Ingrese la nota del estudiante: ");
-                        //!posible validacion de nota
-                        Double nota = Double.Parse(Console.ReadLine());
-                        Nota.setNotas(codigoEst, notas, 'Q', nota);
-                    }
-                    break;
-                case 3:
-                    Console.WriteLine("Ingrese el parcial del estudiante: ");
-                    codigoEst = Console.ReadLine();
-                    if (existeEstudiante(estudiantes, codigoEst))
-                    {
-                        notas.Add(new Nota(codigoEst));
-                        Console.WriteLine("Ingrese la nota del estudiante: ");
-                        //!posible validacion de nota
-                        Double nota = Double.Parse(Console.ReadLine());
-                        Nota.setNotas(codigoEst, notas, 'Q', nota);
-                    }
-                    break;
-                case 4:
-                    return;
+                        notaEvaluacion = Double.Parse(Console.ReadLine());
+                        Nota.setNotas(codigoEst, notas, 'Q', notaEvaluacion);
+                        break;
+                    case 2:
 
-                default:
-                    Console.WriteLine("Opcion Incorrecta ");
-                    break;
+                        notas.Add(new Nota(codigoEst));
+                        Console.WriteLine("Ingrese la nota del estudiante: ");
+                        //!posible validacion de nota
+                        notaEvaluacion = Double.Parse(Console.ReadLine());
+                        Nota.setNotas(codigoEst, notas, 'Q', notaEvaluacion);
+                        break;
+                    case 3:
+
+                        notas.Add(new Nota(codigoEst));
+                        Console.WriteLine("Ingrese la nota del estudiante: ");
+                        //!posible validacion de nota
+                        notaEvaluacion = Double.Parse(Console.ReadLine());
+                        Nota.setNotas(codigoEst, notas, 'Q', notaEvaluacion);
+                        break;
+                    case 4:
+                        return;
+
+                    default:
+                        Console.WriteLine("Opcion Incorrecta ");
+                        break;
+                }
+
             }
+
         }
 
         public static Boolean existeEstudiante(List<Estudiante> estudiantes, string codEstudiante)
@@ -159,11 +156,9 @@ namespace OOP.logic
         public void listarNotas(List<Nota> notas)
         {
 
-            Console.WriteLine("notas[k].codigoEst");
-            Console.WriteLine(notas[0].codigoEst);
-            Console.WriteLine(notas[0].quices);
-            Console.WriteLine(notas[0].parciales);
-            Console.WriteLine(notas[0].trabajos);
+            Console.WriteLine(notas);
+            Console.WriteLine(notas.Count);
+            ;
             // Console.WriteLine(" {0,10}{0,10}", "Cod Estudiante", "Nombre del estudiante");
             // Console.WriteLine(" {" + "0," + "0" + "} {" + 0 + ",longi" + "}", "Menor1", "papa1", "papa1");
 
