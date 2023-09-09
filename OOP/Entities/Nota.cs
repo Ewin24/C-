@@ -14,6 +14,9 @@ namespace OOP.Entities
         public Nota(string codigoEst)
         {
             this.codigoEst = codigoEst;
+            this.parciales = new List<double>();
+            this.quices = new List<double>();
+            this.trabajos = new List<double>();
         }
         public static void setNotas(string codigoEst, List<Nota> notas, char tipoNota, double nota)
         {
@@ -35,8 +38,9 @@ namespace OOP.Entities
                             }
                             break;
                         case 'Q':
-                            if (notas[i].quices.Count < 4)
+                            if (notas[i].parciales.Count < 4)
                             {
+                                Console.WriteLine(notas[i].quices);
                                 notas[i].quices.Add(nota);
                                 Console.WriteLine("Nota de quiz agregada.");
                             }
@@ -44,6 +48,7 @@ namespace OOP.Entities
                             {
                                 Console.WriteLine("Número máximo de quices alcanzado.");
                             }
+
                             break;
                         case 'T':
                             if (notas[i].trabajos.Count < 2)
