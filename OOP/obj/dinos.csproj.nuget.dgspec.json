@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {}
+    "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {
+    "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
+        "projectUniqueName": "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj",
         "projectName": "dinos",
-        "projectPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\obj\\",
+        "projectPath": "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj",
+        "packagesPath": "C:\\Users\\dell xps\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dell xps\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
