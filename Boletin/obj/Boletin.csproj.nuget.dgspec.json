@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {}
+    "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj": {
+    "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
-        "projectName": "dinos",
-        "projectPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\dinos.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj",
+        "projectName": "Boletin",
+        "projectPath": "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\OOP\\obj\\",
+        "outputPath": "C:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

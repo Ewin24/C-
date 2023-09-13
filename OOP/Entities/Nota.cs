@@ -38,7 +38,7 @@ namespace OOP.Entities
                             }
                             break;
                         case 'Q':
-                            if (notas[i].parciales.Count < 4)
+                            if (notas[i].quices.Count < 4)
                             {
                                 Console.WriteLine(notas[i].quices);
                                 notas[i].quices.Add(nota);

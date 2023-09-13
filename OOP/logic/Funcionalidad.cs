@@ -96,17 +96,17 @@ namespace OOP.logic
                         break;
                     case 2:
                         notas.Add(new Nota(codigoEst));
-                        Console.WriteLine("Ingrese la nota del estudiante: ");
+                        Console.WriteLine("Ingrese el trabajo del estudiante: ");
                         //!posible validacion de nota
                         notaEvaluacion = Double.Parse(Console.ReadLine());
-                        Nota.setNotas(codigoEst, notas, 'Q', notaEvaluacion);
+                        Nota.setNotas(codigoEst, notas, 'T', notaEvaluacion);
                         break;
                     case 3:
                         notas.Add(new Nota(codigoEst));
-                        Console.WriteLine("Ingrese la nota del estudiante: ");
+                        Console.WriteLine("Ingrese el parcial del estudiante: ");
                         //!posible validacion de nota
                         notaEvaluacion = Double.Parse(Console.ReadLine());
-                        Nota.setNotas(codigoEst, notas, 'Q', notaEvaluacion);
+                        Nota.setNotas(codigoEst, notas, 'P', notaEvaluacion);
                         break;
                     case 4:
                         return;
@@ -150,62 +150,41 @@ namespace OOP.logic
         }
         public void listarNotas(List<Nota> notas)
         {
-            // for (int i = 0; i < notas.Count; i++)
-            // {
-            //     Console.WriteLine("======Listado general de Notas=====");
-            //     Console.WriteLine("Código de Estudiante: " + notas[i].codigoEst);
-
-            //     // Recorre el arreglo de parciales
-            //     Console.WriteLine("Parciales:");
-            //     for (int j = 0; j < notas[i].parciales.Count; j++)
-            //     {
-            //         Console.WriteLine(notas[i].parciales[j]);
-            //     }
-
-            //     // Recorre el arreglo de quices
-            //     Console.WriteLine("Quices:");
-            //     for (int j = 0; j < notas[i].quices.Count; j++)
-            //     {
-            //         Console.WriteLine(notas[i].quices[j]);
-            //     }
-
-            //     // Recorre el arreglo de trabajos
-            //     Console.WriteLine("Trabajos:");
-            //     for (int j = 0; j < notas[i].trabajos.Count; j++)
-            //     {
-            //         Console.WriteLine(notas[i].trabajos[j]);
-            //     }
-            // }
-
-
             for (int i = 0; i < notas.Count; i++)
             {
                 Console.WriteLine("=======================================");
-                Console.WriteLine("| Código de Estudiante: " + notas[i].codigoEst.PadRight(20) + " |");
+                Console.WriteLine("| Código de Estudiante: " + notas[i].codigoEst.PadRight(16) + " |");
 
                 // Enumeración para Parciales
                 Console.WriteLine("| Parciales:".PadRight(40) + " |");
+                string? cadenaParciales = "";
                 for (int j = 0; j < notas[i].parciales.Count; j++)
                 {
-                    Console.WriteLine("| Quiz " + (j + 1) + ": " + notas[i].parciales[j].ToString().PadRight(30) + " |");
+                    cadenaParciales += "| Parcial " + (j + 1) + ": " + notas[i].parciales[j].ToString() + " |";
                 }
+                Console.WriteLine(cadenaParciales.PadRight(30));
 
                 // Enumeración para Quices
                 Console.WriteLine("| Quices:".PadRight(40) + " |");
+                string? cadenaQuices = "";
                 for (int j = 0; j < notas[i].quices.Count; j++)
                 {
-                    Console.WriteLine("| Quiz " + (j + 1) + ": " + notas[i].quices[j].ToString().PadRight(30) + " |");
+                    cadenaQuices += "| Quiz " + (j + 1) + ": " + notas[i].quices[j].ToString() + " |";
                 }
+                Console.WriteLine(cadenaQuices.PadRight(30));
 
                 // Enumeración para Trabajos
                 Console.WriteLine("| Trabajos:".PadRight(40) + " |");
+                string cadenaTrabajos = "";
                 for (int j = 0; j < notas[i].trabajos.Count; j++)
                 {
-                    Console.WriteLine("| Trabajo " + (j + 1) + ": " + notas[i].trabajos[j].ToString().PadRight(30) + " |");
+                    cadenaTrabajos += "| Trabajo " + (j + 1) + ": " + notas[i].trabajos[j].ToString() + " |";
                 }
+                Console.WriteLine(cadenaTrabajos.PadRight(30));
+
+                Console.WriteLine("=======================================");
             }
 
-            Console.WriteLine("=======================================");
 
             // Console.WriteLine(" {0,10}{0,10}", "Cod Estudiante", "Nombre del estudiante");
             // Console.WriteLine(" {" + "0," + "0" + "} {" + 0 + ",longi" + "}", "Menor1", "papa1", "papa1");
