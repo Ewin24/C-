@@ -1,18 +1,29 @@
 [
   {
-    "Code": "123",
-    "Nombre": "Johlver",
-    "Direccion": "djhgf",
-    "Edad": 23,
-    "Quices": [
-      3.5,
-      5.0
-    ],
-    "Trabajos": [
-      4.4
-    ],
-    "Parciales": [
-      4.0
-    ]
+    "Code": "1",
+    "Nombre": "1",
+    "Direccion": "1",
+    "Edad": 1,
+    "Quices": [],
+    "Trabajos": [],
+    "Parciales": []
+  },
+  {
+    "Code": "1",
+    "Nombre": "1",
+    "Direccion": "1",
+    "Edad": 233,
+    "Quices": [],
+    "Trabajos": [],
+    "Parciales": []
+  },
+  {
+    "Code": "2",
+    "Nombre": "2",
+    "Direccion": "2",
+    "Edad": 2,
+    "Quices": [],
+    "Trabajos": [],
+    "Parciales": []
   }
 ]

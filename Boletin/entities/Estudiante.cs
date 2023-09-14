@@ -34,7 +34,7 @@ namespace Boletin.Entities
         public string Nombre { get => nombre; set => nombre = value; }
         public string Direccion { get => direccion; set => direccion = value; }
         public byte Edad { get => edad; set => edad = value; }
-        public void InfoEstudiante(List<Estudiante> estudiantes)
+        public void registroEstudiante(List<Estudiante> estudiantes)
         {
             Estudiante estudiante = new Estudiante();
             Console.Write("Codigo: ");
@@ -48,16 +48,41 @@ namespace Boletin.Entities
             estudiante.Quices = new List<float>();
             estudiante.Trabajos = new List<float>();
             estudiante.Parciales = new List<float>();
-            estudiantes.Add(estudiante);
+            // estudiantes.Add(estudiante);//en lugar de agregarlo, primero lo validaremos
+            MisFunciones.SaveDataEstudiante(estudiantes, estudiante);
+        }
+
+        public static void editarEstudiante(List<Estudiante> listaEstudiantes)
+        {
+            Console.Clear();
+            Console.Write("======EDICION DE ESTUDIANTES======: ");
+            Estudiante estudiante = new Estudiante();
+            Console.Write("Ingrese el codigo del estudiante: ");
+            estudiante.Code = Console.ReadLine();
+            if (listaEstudiantes.FirstOrDefault(x => x.Code == estudiante.Code).Code == estudiante.Code)
+            {
+                Console.Write("Nombre: ");
+                estudiante.Nombre = Console.ReadLine();
+                Console.Write("Direccion: ");
+                estudiante.Direccion = Console.ReadLine();
+                Console.Write("Edad: ");
+                estudiante.Edad = Convert.ToByte(Console.ReadLine());
+                estudiante.Quices = new List<float>();
+                estudiante.Trabajos = new List<float>();
+                estudiante.Parciales = new List<float>();
+                MisFunciones.EditDataEstudiante(listaEstudiantes, estudiante);
+            }
+            {
+                Console.WriteLine("El estudiante aun no se encuentra registrado");
+            }
         }
 
         public void RegistroNota(List<Estudiante> estudiantes, int opcion)
         {
             Console.WriteLine("Ingrese el codigo del estudiante: ");
             string studenCode = Console.ReadLine();
-            // Estudiante alumno =  new Estudiante();
             Estudiante alumno = estudiantes.FirstOrDefault(x => x.Code.Equals(studenCode));
-            Console.WriteLine("Por favor ingrese la nota del : ");
+            Console.WriteLine("Por favor ingrese la nota del estudiante: ");
             switch (opcion)
             {
                 case 1:
@@ -78,18 +103,17 @@ namespace Boletin.Entities
             int idx = estudiantes.FindIndex(p => p.Code.Equals(studenCode));
             estudiantes[idx] = alumno;
         }
-        public void RemoveItem(List<Estudiante> estudiantes){
+        public void RemoveItem(List<Estudiante> estudiantes)
+        {
             Console.Clear();
             Console.WriteLine("Ingrese el Codigo del Estudiante a Eliminar");
             string id = Console.ReadLine();
-            Estudiante studentToRemove = estudiantes.FirstOrDefault(st => (st.Code ?? string.Empty)
-            .Equals(id)) ?? new Estudiante();
+            Estudiante studentToRemove = estudiantes.FirstOrDefault(st => (st.Code ?? string.Empty).Equals(id)) ?? new Estudiante();
             if (studentToRemove != null)
             {
                 estudiantes.Remove(studentToRemove);
                 MisFunciones.SaveData(estudiantes);
             }
-        }    
+        }
     }
-
 }

@@ -15,15 +15,16 @@ internal class Program
             Console.WriteLine("1. Registro de estudiantes");
             Console.WriteLine("2. Registro de notas");
             Console.WriteLine("3. Reportes e informes");
-            Console.WriteLine("4. Eliminar Alumno");
+            Console.WriteLine("4. Eliminar Estudiante");
+            Console.WriteLine("5  Editar Estudiante");
+            Console.WriteLine("6. Editar Notas");
             Console.WriteLine("0. Salir");
             Console.Write("Opcion: ");
             byte opcionMenu = Convert.ToByte(Console.ReadLine());
             switch (opcionMenu)
             {
                 case 1:
-                    student.InfoEstudiante(estudiantes);
-                    MisFunciones.SaveData(estudiantes);
+                    student.registroEstudiante(estudiantes);
                     break;
                 case 2:
                     bool cicloNotas = true;
@@ -72,6 +73,12 @@ internal class Program
                 case 4:
                     student.RemoveItem(estudiantes);
                     break;
+                case 5:
+                    student.RemoveItem(estudiantes);
+                    break;
+                case 6:
+                    student.RemoveItem(estudiantes);
+                    break;
                 case 0:
                     cicloMenu = false;
                     break;
@@ -83,7 +90,9 @@ internal class Program
             }
 
         }
-
-
     }
 }
+
+//TODO: validacion para que no deje ingresar estudiante si ya existe uno con el mismo codigo
+//TODO: funcionalidad de edicion de estudiante por codigo en caso de que se edite el estudiante conservar notas
+//TODO: funcionalidad de edicion de nota por codigo de estudiante 
