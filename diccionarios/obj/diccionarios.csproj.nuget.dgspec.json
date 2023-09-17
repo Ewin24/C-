@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj": {}
+    "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\diccionarios\\diccionarios.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj": {
+    "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\diccionarios\\diccionarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj",
-        "projectName": "dinos",
-        "projectPath": "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\dinos.csproj",
+        "projectUniqueName": "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\diccionarios\\diccionarios.csproj",
+        "projectName": "diccionarios",
+        "projectPath": "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\diccionarios\\diccionarios.csproj",
         "packagesPath": "C:\\Users\\dell xps\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\OOP\\obj\\",
+        "outputPath": "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\diccionarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell xps\\AppData\\Roaming\\NuGet\\NuGet.Config"
