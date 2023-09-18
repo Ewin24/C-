@@ -32,3 +32,20 @@ C:\Users\dell\Desktop\CAMPUS\SKILL\C#\Boletin\obj\Debug\net7.0\refint\Boletin.dl
 C:\Users\dell\Desktop\CAMPUS\SKILL\C#\Boletin\obj\Debug\net7.0\Boletin.pdb
 C:\Users\dell\Desktop\CAMPUS\SKILL\C#\Boletin\obj\Debug\net7.0\Boletin.genruntimeconfig.cache
 C:\Users\dell\Desktop\CAMPUS\SKILL\C#\Boletin\obj\Debug\net7.0\ref\Boletin.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.csproj.AssemblyReference.cache
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.AssemblyInfoInputs.cache
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.AssemblyInfo.cs
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.csproj.CoreCompileInputs.cache
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\refint\Boletin.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.pdb
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\bin\Debug\net7.0\Boletin.exe
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\bin\Debug\net7.0\Boletin.deps.json
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\bin\Debug\net7.0\Boletin.runtimeconfig.json
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\bin\Debug\net7.0\Boletin.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\bin\Debug\net7.0\Boletin.pdb
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.csproj.CopyComplete
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\Boletin.genruntimeconfig.cache
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\Boletin\obj\Debug\net7.0\ref\Boletin.dll
