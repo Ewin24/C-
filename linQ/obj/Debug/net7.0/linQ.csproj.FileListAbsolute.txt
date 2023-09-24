@@ -1,0 +1,17 @@
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\bin\Debug\net7.0\linQ.exe
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\bin\Debug\net7.0\linQ.deps.json
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\bin\Debug\net7.0\linQ.runtimeconfig.json
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\bin\Debug\net7.0\linQ.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\bin\Debug\net7.0\linQ.pdb
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.AssemblyInfo.cs
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.csproj.CopyComplete
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\refint\linQ.dll
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.pdb
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\linQ.genruntimeconfig.cache
+C:\Users\dell\Desktop\CAMPUS\SKILL\C#\linQ\obj\Debug\net7.0\ref\linQ.dll
