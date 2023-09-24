@@ -1,0 +1,14 @@
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\bin\Debug\net7.0\diccionarios.exe
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\bin\Debug\net7.0\diccionarios.deps.json
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\bin\Debug\net7.0\diccionarios.runtimeconfig.json
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\bin\Debug\net7.0\diccionarios.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\bin\Debug\net7.0\diccionarios.pdb
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\diccionarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\diccionarios.AssemblyInfoInputs.cache
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\diccionarios.AssemblyInfo.cs
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\diccionarios.csproj.CoreCompileInputs.cache
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\diccionarios.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\refint\diccionarios.dll
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\diccionarios.pdb
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\diccionarios.genruntimeconfig.cache
+C:\Users\dell xps\Desktop\EDWIN\CAMPUS\SKILL\CSharp\diccionarios\obj\Debug\net7.0\ref\diccionarios.dll

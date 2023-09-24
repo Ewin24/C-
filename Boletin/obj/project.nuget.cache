@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8h3/VysB+pgYqJcxABUu2URQ3ulv1GSiC/BhcV6xtCHGaWoGvvnm0c5gi39rT/2HHrRrx5IW2kIR4mBacPIGWQ==",
+  "dgSpecHash": "3XOLyFJfIKGlUvPIrzbgyQT5IHYPzF7xcdzSZ5EvNZkMDKErds7KSZeICPAeGGNXnXu33tj+GEhVjMvsAS2r0A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj",
+  "projectFilePath": "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\Boletin\\Boletin.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\dell xps\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

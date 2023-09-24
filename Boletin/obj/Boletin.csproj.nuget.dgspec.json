@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj": {}
+    "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\Boletin\\Boletin.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj": {
+    "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\Boletin\\Boletin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj",
+        "projectUniqueName": "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\Boletin\\Boletin.csproj",
         "projectName": "Boletin",
-        "projectPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\Boletin.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dell\\Desktop\\CAMPUS\\SKILL\\C#\\Boletin\\obj\\",
+        "projectPath": "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\Boletin\\Boletin.csproj",
+        "packagesPath": "C:\\Users\\dell xps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell xps\\Desktop\\EDWIN\\CAMPUS\\SKILL\\CSharp\\Boletin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dell xps\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
